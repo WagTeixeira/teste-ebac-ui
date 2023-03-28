@@ -1,0 +1,25 @@
+{
+  "name": "teste-ebac-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WagTeixeira/teste-ebac-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WagTeixeira/teste-ebac-ui/issues"
+  },
+  "homepage": "https://github.com/WagTeixeira/teste-ebac-ui#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "cypress": "^12.8.1",
+    "D": "^1.0.0"
+  }
+}
