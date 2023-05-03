@@ -27,7 +27,7 @@ describe("Funcionalidade Página de produtos", () => {
       cy.get('.woocommerce-message').should('contain', quantidade + ' × “Abominable Hoodie” foram adicionados no seu carrinho.')
     });
 
-    it.only('Deve adicionar produtos ao carrinho - Usando Comando customizado', () => {
+    it('Deve adicionar produtos ao carrinho - Usando Comando customizado', () => {
         cy.addProdutos('Ariel Roll Sleeve Sweatshirt', 'XS', 'Red', 5)
     });
   });
